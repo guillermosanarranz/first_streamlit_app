@@ -55,7 +55,7 @@ streamlit.dataframe(my_data_row)
 
 #Ask user for fruit input and use it to define json
 add_my_fruit = streamlit.text_input('What fruit would you like into add','Kiwi')
-streamlit.write('Thanks for adding ', fruit_choice)
+streamlit.write('Thanks for adding ', add_my_fruit)
 
 
 
